@@ -1,1 +1,1 @@
-# discord-themes
+# QMcord
