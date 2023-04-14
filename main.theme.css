@@ -1,0 +1,75 @@
+/**
+ * @name WhatQM themes
+ * @description Some cool themes combines
+ * @author what-question-mark
+ * @version 1
+ * @authorId 693325366365913164
+*/
+
+@import url("https://dyzean.github.io/Tokyo-Night/addons/revert-rebrand.css");
+@import url("https://nyri4.github.io/Discolored/main.css");
+@import url("https://nyri4.github.io/donators/donators.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+
+
+:root {
+    --rs-small-spacing: 2px;
+    --rs-medium-spacing: 3px;
+    --rs-large-spacing: 4px;
+    --rs-small-width: 2px;
+    --rs-medium-width: 3px;
+    --rs-large-width: 4px;
+    --rs-avatar-shape: 50%;
+    --rs-online-color: #43b581;
+    --rs-idle-color: #faa61a;
+    --rs-dnd-color: #f04747;
+    --rs-offline-color: #636b75;
+    --rs-streaming-color: #643da7;
+    --rs-invisible-color: #747f8d;
+    --rs-phone-color: var(--rs-online-color);
+    --rs-phone-visible: block;
+}
+
+.withFrame-2dL45i {
+    height: 20px;
+}
+
+.typeWindows-2-g3UY .winButton-3UMjdg>svg {
+    display: none;
+}
+
+.typeWindows-2-g3UY .winButton-3UMjdg {
+    top: 0;
+    width: 11px;
+    height: 11px;
+    margin: 2px 12px 2px 0;
+    border-radius: 12px;
+    border: 1px solid;
+}
+
+.typeWindows-2-g3UY .winButtonClose-3Q8ZH5 {
+    background-color: #FF6259 !important;
+    border-color: #0000007f;
+}
+
+.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(3) {
+    background-color: #FFBD2C !important;
+    border-color: #0000007f;
+}
+
+.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(4) {
+    background-color: #28CA40 !important;
+    border-color: #0000007f;
+}
+
+.typeWindows-2-g3UY .winButton-3UMjdg::after {
+    content: '';
+    height: 12px;
+    width: 12px;
+    border-radius: 12px;
+    transition: 0.1s;
+}
+
+.typeWindows-2-g3UY>div:hover {
+    transform: scale(1.1);
+}
